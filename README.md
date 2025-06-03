@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/mickael-o3o/Blog-preview-card-solution.git](https://github.com/mickael-o3o/Blog-preview-card-solution.git)
-- Live Site URL: [Add live site URL here](https://mickael-o3o.github.io/Blog-preview-card-solution)
+- Live Site URL: [https://mickael-o3o.github.io/Blog-preview-card-solution](https://mickael-o3o.github.io/Blog-preview-card-solution)
 
 ## My process
 
