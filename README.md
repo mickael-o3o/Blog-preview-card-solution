@@ -11,10 +11,7 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -43,7 +40,7 @@ Users should be able to:
 
 ### What I learned
 
-Calculate an element's size based on the other element's size.
+Calculate an element's size based on other element's size.
 
 ```css
 .illustration-article {
