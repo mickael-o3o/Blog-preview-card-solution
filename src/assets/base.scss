@@ -17,7 +17,7 @@ body {
   font: {
     family: var(--font-family), sans-serif;
     weight: var(--font-weight-normal);
-    size: calc(var(--font-size-paragraph) * 1px);
+    size: var(--font-size-paragraph);
   }
   line-height: 150%;
   text-rendering: optimizeLegibility;

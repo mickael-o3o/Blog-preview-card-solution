@@ -11,7 +11,7 @@ $small-screen-text-subs: calc-rem(2);
   --text-preset-3: #{$text-preset-3 - $small-screen-text-subs};
 }
 
-@media (min-width: 375px) {
+@media (min-width: calc-rem(375)) {
   :root {
     --text-preset-1: #{$text-preset-1};
     --text-preset-2: #{$text-preset-2};

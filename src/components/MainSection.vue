@@ -8,7 +8,7 @@
       />
       <div class="content">
         <div class="category">Learning</div>
-        <date class="publish-date"> Published 21 Dec 2023</date>
+        <div class="publish-date">Published 21 Dec 2023</div>
         <h1 class="title">HTML & CSS foundations</h1>
         <p class="description">
           These languages are the backbone of every website, defining structure, content, and
@@ -109,7 +109,7 @@
   }
 }
 
-@media (min-width: 375px) {
+@media (min-width: 23.4rem) {
   .card-container {
     max-width: var(--desktop-width);
 
