@@ -1,39 +1,61 @@
-# vue-project
+# Frontend Mentor - Blog preview card solution
 
-This template should help get you started developing with Vue 3 in Vite.
+This is a solution to the [Blog preview card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Recommended IDE Setup
+## Table of contents
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-## Type Support for `.vue` Imports in TS
+## Overview
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+### The challenge
 
-## Customize configuration
+Users should be able to:
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+- See hover and focus states for all interactive elements on the page
 
-## Project Setup
+### Screenshot
 
-```sh
-pnpm install
+![](./screenshot.png)
+
+### Links
+
+- Solution URL: [https://github.com/mickael-o3o/Blog-preview-card-solution.git](https://github.com/mickael-o3o/Blog-preview-card-solution.git)
+- Live Site URL: [Add live site URL here](https://mickael-o3o.github.io/Blog-preview-card-solution)
+
+## My process
+
+### Built with
+
+- [Vuejs](https://vuejs.org)
+- [Sass](https://sass-lang.com)
+- Mobile-first workflow
+
+### What I learned
+
+Calculate an element's size based on the other element's size.
+
+```css
+.illustration-article {
+  max-width: calc(var(--card-width) - (var(--space-200) * 2));
+  border-radius: calc(10 / var(--font-size-paragraph) * 1rem);
+}
 ```
 
-### Compile and Hot-Reload for Development
+### Continued development
 
-```sh
-pnpm dev
-```
+Calculate element's based on root font-size.
 
-### Type-Check, Compile and Minify for Production
+## Author
 
-```sh
-pnpm build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-pnpm lint
-```
+- Frontend Mentor - [@mickael-o3o](https://www.frontendmentor.io/profile/mickael-o3o)
