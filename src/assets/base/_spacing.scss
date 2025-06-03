@@ -1,0 +1,13 @@
+@use '../utils' as *;
+
+$space-50: calc-rem(4);
+$space-100: calc-rem(8);
+$space-150: calc-rem(12);
+$space-200: calc-rem(24);
+
+:root {
+  --space-50: #{$space-50};
+  --space-100: #{$space-100};
+  --space-150: #{$space-150};
+  --space-200: #{$space-200};
+}

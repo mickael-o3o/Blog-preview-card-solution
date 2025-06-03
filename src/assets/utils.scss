@@ -1,0 +1,13 @@
+@use 'sass:math';
+@use './base/fonts';
+
+@function calc-rem($size) {
+  $result: math.div($size, fonts.$font-size-paragraph) * 1rem;
+  @return $result;
+}
+
+// @mixin css-vars($type, $vars-map) {
+//   @each $name, $value in $vars-map {
+//     --#{$type}-#{$name}: #{$value};
+//   }
+// }

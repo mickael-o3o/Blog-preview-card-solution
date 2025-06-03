@@ -1,0 +1,6 @@
+@use './base' as *;
+@forward './base';
+
+#app {
+  margin: 0 auto;
+}

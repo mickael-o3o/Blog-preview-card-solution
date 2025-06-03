@@ -1,0 +1,26 @@
+@use './base/colors' as *;
+@use './base/fonts' as *;
+@use './base/sizing' as *;
+@use './base/spacing' as *;
+@use './base/text-preset' as *;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--color-gray-950);
+  font: {
+    family: var(--font-family), sans-serif;
+    weight: var(--font-weight-normal);
+    size: calc(var(--font-size-paragraph) * 1px);
+  }
+  line-height: 150%;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

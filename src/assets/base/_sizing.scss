@@ -1,0 +1,13 @@
+@use '../utils' as *;
+
+$card-width-mobile: calc-rem(327);
+$card-width-desktop: calc-rem(384);
+$mobile-width: calc-rem(375);
+$desktop-width: calc-rem(1440);
+
+:root {
+  --card-width-mobile: #{$card-width-mobile};
+  --card-width-desktop: #{$card-width-desktop};
+  --mobile-width: #{$mobile-width};
+  --desktop-width: #{$desktop-width};
+}

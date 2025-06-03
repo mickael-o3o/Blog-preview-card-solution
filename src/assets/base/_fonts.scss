@@ -1,0 +1,16 @@
+$font-size-paragraph: 16;
+$family: 'Figtree';
+$weight-normal: 500;
+$weight-bold: 800;
+
+@font-face {
+  font-family: 'Figtree';
+  src: url('/src/assets/fonts/Figtree-VariableFont_wght.ttf');
+}
+
+:root {
+  --font-size-paragraph: #{$font-size-paragraph};
+  --font-family: '#{$family}';
+  --font-weight-normal: #{$weight-normal};
+  --font-weight-bold: #{$weight-bold};
+}
