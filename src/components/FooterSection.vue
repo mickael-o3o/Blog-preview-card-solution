@@ -3,7 +3,7 @@
     <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="#">Micaël-o3o</a>.
+      Coded by <a href="#">Mickaël-o3o</a>.
     </div>
   </footer>
 </template>
