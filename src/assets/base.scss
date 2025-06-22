@@ -4,6 +4,37 @@
 @use './base/spacing' as *;
 @use './base/text-preset' as *;
 
+:root {
+  --color-yellow: #{$yellow};
+  --color-white: #{$white};
+  --color-gray-500: #{$gray-500};
+  --color-gray-950: #{$gray-950};
+
+  --font-size-paragraph: #{$font-size-paragraph};
+  --font-family: '#{$family}';
+  --font-weight-normal: #{$weight-normal};
+  --font-weight-bold: #{$weight-bold};
+
+  --text-preset-1: #{$text-preset-1};
+  --text-preset-2: #{$text-preset-2};
+  --text-preset-3: #{$text-preset-3};
+
+  --space-50: #{$space-50};
+  --space-100: #{$space-100};
+  --space-150: #{$space-150};
+  --space-200: #{$space-200};
+
+  --card-width-mobile: #{$card-width-mobile};
+  --card-width-desktop: #{$card-width-desktop};
+  --mobile-width: #{$mobile-width};
+  --desktop-width: #{$desktop-width};
+}
+
+@font-face {
+  font-family: 'Figtree';
+  src: url('/src/assets/fonts/Figtree-VariableFont_wght.ttf');
+}
+
 *,
 *::before,
 *::after {
@@ -14,10 +45,11 @@
 body {
   min-height: 100vh;
   color: var(--color-gray-950);
+  background-color: var(--color-yellow);
   font: {
     family: var(--font-family), sans-serif;
     weight: var(--font-weight-normal);
-    size: var(--font-size-paragraph);
+    size: calc(var(--font-size-paragraph) - 0.125rem);
   }
   line-height: 150%;
   text-rendering: optimizeLegibility;

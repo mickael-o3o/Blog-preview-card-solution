@@ -1,20 +1,5 @@
 @use '../utils' as *;
 
-$text-preset-1: calc-rem(24);
-$text-preset-2: calc-rem(16);
-$text-preset-3: calc-rem(14);
-$small-screen-text-subs: calc-rem(2);
-
-:root {
-  --text-preset-1: #{$text-preset-1 - $small-screen-text-subs};
-  --text-preset-2: #{$text-preset-2 - $small-screen-text-subs};
-  --text-preset-3: #{$text-preset-3 - $small-screen-text-subs};
-}
-
-@media (min-width: calc-rem(375)) {
-  :root {
-    --text-preset-1: #{$text-preset-1};
-    --text-preset-2: #{$text-preset-2};
-    --text-preset-3: #{$text-preset-3};
-  }
-}
+$text-preset-1: clamp(calc-rem(20), 1rem + 1vw, calc-rem(22));
+$text-preset-2: clamp(calc-rem(14), 0.625rem + 1vw, calc-rem(16));
+$text-preset-3: clamp(calc-rem(12), 0.5rem + 1vw, calc-rem(14));
